@@ -212,7 +212,7 @@ A conceptual framework of AV’s effects. Source: [Gruel and Stanford (2016)](ht
 - Census of Population and Employmnet
 - Household and Travel Survey
 - Traffic Counts
-...
+- ...
 ]
 
 .pull-right[
@@ -221,7 +221,7 @@ A conceptual framework of AV’s effects. Source: [Gruel and Stanford (2016)](ht
 - Cell phone signal
 - Location-Based services
 - Social media apps
-...
+- ...
 ]
 
 ---
