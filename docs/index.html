@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computational Modeling in Transportation and Urban Planning</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Liming Wang, PhD Toulan School of Urban Studies and Planning Portland State University" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Computational Modeling in Transportation and Urban Planning
+### Liming Wang, PhD<br />
+Toulan School of Urban Studies and Planning<br />
+Portland State University
+### 6/29/2018
+
+---
+
+
+
+
+# Outline
+
+- Computational Modeling in Transportation
+      - Current practice
+      - Applications
+- Trends, Challenges and Opportunities
+      - Transportation Technologies
+      - Big Data
+      - Machine Learning
+
+---
+
+# Computational Modeling in Transportation and Urban Planning
+
+.pull-left[
+### Computational modeling is useful in Transportation and Urban Planning because:
+- Substantial public investment and polices that affects lives of thousands or millions;
+- Public investment and polices are hard to reverse or irreversible
+- The urban system is complex
+]
+
+.pull-right[
+![Visioning](resources/Wegener1994.png)
+Credit: [Wegener, 1994](https://www.tandfonline.com/doi/abs/10.1080/01944369408975547) 
+]
+
+---
+
+# Visioning vs Modeling
+
+.pull-left[
+- **Visioning** is a community oriented planning technique used to identify regional land-use and transportation goals
+- **Objectives**: Consensus-building of the region's future
+- **Tools**: Sketch planning tools (Envision Tomorrow+, CommunityViz, ...), paper/tablet maps, lego bricks
+- Primarily driving by user-controlled inputs
+- Limited by the quality of the public involvement and consensus-building, the feasibility of the preferred scenario
+]
+
+.pull-right[
+![Visioning](resources/james_rojas_event.jpg)
+Credit: [City of Milwaukie, OR](https://www.milwaukieoregon.gov/planning/visioning-place-it) 
+]
+
+---
+
+# Visioning vs Modeling
+
+.pull-left[
+- **Urban Models** predict a region’s future traffic, spatial distribution of households and employment 
+- **Objectives**: anticipating direct and indirect impacts of policies/planns/public investment
+- **Tools**: Travel demand models, UrbanSim, DRAM/EPAL, MetroScope, CubeLand, ...
+- Primarily driving by base year conditions, scenario inputs, and model assumptions
+- Limited by the quality of inputs and model assumptions
+]
+
+.pull-right[
+![UrbanSim](resources/UrbanSim-Choice-Process.png)
+Source: [Waddell, 2005](https://www.researchgate.net/publication/228740459_Confronting_the_bane_of_endogeneity_in_modelling_urban_social_dynamics)
+]
+
+---
+
+background-image: url("resources/LUM-evolution.png")
+background-size: 80%
+class: center, bottom
+
+Evolution of Urban Models
+
+---
+
+# UrbanSim (1)
+
+![UrbanSim](resources/UrbanSim.png)
+---
+
+# UrbanSim (2)
+
+- A model system for analyzing urban development
+- Development started in late 1990s
+- First developed in Java, later re-implemented with Python as an open source project (https://github.com/UDST/urbansim)
+- Applications in dozens of regions in the US and many more around the globe
+
+---
+
+# Regional Strategic Planning Model (1)
+
+![RSPM](resources/RSPM-flow-chart_v4.png)
+
+---
+
+# Regional Strategic Planning Model (2)
+
+- A light-weighted modeling tool for transportation and land use policies visioning and evaluating
+- Implmented in statstical programming language R
+- GitHub Repository: https://github.com/gregorbj/VisionEval
+- Applications in Oregon, Florida, Georgia
+
+---
+
+# Knowledge/Skills in Developing Models
+
+&lt;img src="resources/Data_Science_VD-Conway2013.png" width="450px" style="display: block; margin: auto;" /&gt;
+
+Credit: [Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
+
+---
+
+background-image: url("resources/CRC.png")
+background-size: 62%
+class: center, bottom
+
+Columbia River Crossing Study (Credit: Robert Liberty)
+
+---
+
+background-image: url("resources/CRC_VMT.png")
+background-size: 72%
+class: center, bottom
+
+Columbia River Crossing Study with MetroScope (Source: [Sonny Conder, et al, 2010](http://www.oregonmetro.gov/sites/default/files/10272010_CRC_economic_impacts_tolling.pdf))
+
+---
+
+background-image: url("resources/CRC_density.png")
+background-size: 72%
+class: center, bottom
+
+Columbia River Crossing Study with MetroScope (Source: [Sonny Conder, et al, 2010](http://www.oregonmetro.gov/sites/default/files/10272010_CRC_economic_impacts_tolling.pdf))
+
+---
+
+# Impact of Autonomous Vehicle Technology
+- How adoption of Connected and Autonomous Vehicles affects traffic?
+- How they affect travel behavior and travel demand?
+- What are the requirement for the transportation and land use system (roadwork network, parking, etc)?
+- Long term impact on land use?
+
+---
+
+# Impact of Autonomous Vehicle Technology
+
+&lt;center&gt;
+  &lt;img src="resources/av-simulation1.png" height="400px" /&gt;
+&lt;/center&gt;
+
+Source: [Childress, Nichols, Charlton, and Coe, 2015](https://psrc.github.io/attachments/2014/TRB-2015-Automated-Vehicles-Rev2.pdf) 
+
+---
+
+# Impact of Autonomous Vehicle Technology
+
+&lt;center&gt;
+  &lt;img src="resources/av-simulation2.png" height="420px" /&gt;
+&lt;/center&gt;
+
+Source: [Childress, Nichols, Charlton, and Coe, 2015](https://psrc.github.io/attachments/2014/TRB-2015-Automated-Vehicles-Rev2.pdf)
+
+---
+class: center, middle
+
+# Trends, Challenges and Opportunities
+
+---
+
+# Transportation Technologies
+&lt;center&gt;
+  &lt;img src="resources/av-1950s.jpg" height="450px" /&gt;
+&lt;/center&gt;
+
+[A 1950’s advertisement imagining an electric car of the future.Credit: Advertising Archive, via Everett Collection](https://www.nytimes.com/2018/03/31/opinion/distraction-self-driving-cars.html)
+
+---
+
+background-image: url("resources/Gruel2016.png")
+background-size: 78%
+class: bottom, left
+
+A conceptual framework of AV’s effects. Source: [Gruel and Stanford (2016)](http://www.sciencedirect.com/science/article/pii/S2352146516300035)
+
+---
+
+# Big Data
+
+.pull-left[
+### Traditional Data Sources
+- Census of Population and Employmnet
+- Household and Travel Survey
+- Traffic Counts
+...
+]
+
+.pull-right[
+### Big Data Sources
+- Transit smart card data
+- Cell phone signal
+- Location-Based services
+- Social media apps
+...
+]
+
+---
+
+# Machine Learning
+
+.pull-left[
+![Breiman2003](resources/Breiman2001_data-modeling.png)
+
+**Statistical models** ("the data modeling"): Assuming a data generation model and use data and hypothesis testing framework to recover parameters of the data generation process; the focus is more on `\(\boldsymbol{\hat{\beta}}\)`.
+]
+
+.pull-right[
+![Breiman2003](resources/Breiman2001_algo-modeling.png)
+
+**Machine learning** ("algorithmic modeling"): With no assumption of data generation process, use computer algorithms for pattern recognition and data-driven predictions-making; the focus is `\(\boldsymbol{\hat{Y}}\)`
+
+]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
